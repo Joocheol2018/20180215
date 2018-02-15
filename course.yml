@@ -1,4 +1,4 @@
-title: Course Title Here
-description: A description of the course.
+title: An Informal Introduction to Python
+description: This is a datacamp implementation of ScipyLectures.
 programming_language: python
 from: python-base-prod:20
