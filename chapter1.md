@@ -85,3 +85,55 @@ msg4 = ""
 msg5 = "Correct!"
 test_mc(5, [msg1, msg2, msg3, msg4, msg5])
 ```
+
+---
+## First Steps
+
+```yaml
+type: MultipleChoiceExercise
+key: 6a8c923fc8
+lang: python
+xp: 50
+skills: 2
+```
+Try
+
+- a = 3
+- b = 2*a
+- type(b)     
+
+- print(b)
+
+- a*b
+
+- b = 'hello'
+- type(b)    
+
+- b + b
+
+- 2*b
+
+What is the final answer?
+`@instructions`
+- hello
+- HELLO
+- 'hellohello'
+- 2 'hello'
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sct`
+```{python}
+msg1 = ""
+msg2 = ""
+msg3 = "Correct!"
+msg4 = ""
+
+test_mc(3, [msg1, msg2, msg3, msg4])
+
+```
